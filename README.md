@@ -2,12 +2,17 @@
 
 > ## 🛠 Status: Done
 
-# Pho3nix-element
+# Pho3nix-cart
 
-Boilerplate for lit-element development
+Simple shopping cart elements
 
 ## Example:
 
 ```HTML
-    <pho3nix-element></pho3nix-element>
+    <pho3nix-cart total="000000 HUF">
+      <pho3nix-cart-item slot="items" name="Nicci" price="00000 HUF" quantity="9" subtotal="0000 HUF"></pho3nix-cart-item>
+      <pho3nix-cart-item slot="items" name="Erica" price="0000 HUF" quantity="99" subtotal="000000 HUF"></pho3nix-cart-item>
+      <pho3nix-cart-item slot="items" name="Vi" price="000000 HUF" quantity="999" subtotal="00000 HUF"></pho3nix-cart-item>
+      <pho3nix-cart-form slot="form"></pho3nix-cart-form>
+    </pho3nix-cart>
 ```
